@@ -1,0 +1,55 @@
+# Matter work product and source material
+Exhibits/
+Context (not exhibit)/
+Authorities/
+Intermediary work/
+*.pdf
+*.doc
+*.docx
+*.rtf
+*.xlsx
+*.xls
+*.csv
+*.msg
+*.eml
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# OCR and drafting outputs
+*OCR*/
+*ocr*.txt
+*ocr*.csv
+*working-memo*
+*research-log*
+*search-log*
+*authority-check*
+*change-log*
+*draft*
+rendered*/
+preview*/
+
+# Credentials and local session artifacts
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+cookies*
+session*
+profile/
+browser-profile/
+playwright-report/
+test-results/
+
+# Local and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+~$*
+__pycache__/
+.pytest_cache/
