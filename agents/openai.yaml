@@ -1,0 +1,7 @@
+interface:
+  display_name: "California Subpoena MTC"
+  short_description: "Draft California subpoena MTC packages"
+  default_prompt: "Use $ca-subpoena-mtc-drafting-workflow to intake these subpoena materials and draft the motion-to-compel package section by section."
+
+policy:
+  allow_implicit_invocation: true
